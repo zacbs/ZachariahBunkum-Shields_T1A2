@@ -1,2 +1,9 @@
-# ZachariahBunkum-Shields_T1A2
-Portfolio assessment T1A2
+# Portfolio Assignment T1A2
+Table of Contents
+  - Purpose
+  - Functionality & features
+  - Sitemap
+  - Screenshots
+  - Target audience
+  - Tech stack
+  
