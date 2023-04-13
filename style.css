@@ -1,0 +1,14 @@
+#header_image {
+  /* align-items: center; */
+  /* width: 100vw;
+  height: 100vh;
+  scale: 50%; */
+}
+
+#header {
+  display: flex;
+}
+
+#header h1 {
+  text-align: center;
+}
