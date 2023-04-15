@@ -6,52 +6,59 @@
 
 /* Header styling */
 
-header {
+#blurb {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 #header_image {
   height: 30vh;
-  width: 100%;
+  width: 100vw;
   object-fit: cover;
 }
 
-header h1 {
+main h1 {
   text-align: center;
-  padding: 1rem 0 0;
-  
+  padding: 1rem;
 }
 /* Content styling */
 
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem;
   border-bottom: black 5px solid;
 }
 
 main a {
-  padding: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
-main aside ul {
+main section ul {
   list-style-type: none;
   display: flex;
   padding: 1rem;
+  justify-content: center;
 }
 
-main aside ul li {
+main section ul li {
   padding: 1rem;
-  justify-content: space-around;
 }
-/* Blog styling */
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.tablet {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
+ /* Blog styling */
+
+h2 {
+  text-align: center;
 }
 
 article {
@@ -72,4 +79,30 @@ footer {
 
 footer a {
   padding: 1rem;
+}
+
+/* Tablet styling */
+
+@media only screen and (min-width: 700px) {
+  .mobile {
+    display:none;
+  }
+  .tablet {
+    display: block;
+  }
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #blurb {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .tablet {
+    display:none;
+  }
+  .desktop {
+    display: block;
 }
