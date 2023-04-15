@@ -118,6 +118,7 @@ footer {
   justify-content: center;
   background-color: #ff3b3f;
   flex-wrap: wrap;
+  border-top: black solid 5px;
 }
 
 footer a {

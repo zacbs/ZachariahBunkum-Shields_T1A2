@@ -1,0 +1,26 @@
+article {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+section {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+img {
+  object-fit: contain;
+  height: auto;
+  width: auto;
+}
+
+h4 {
+  padding: 1rem;
+}
+
+#previous {
+  display: none;
+}
