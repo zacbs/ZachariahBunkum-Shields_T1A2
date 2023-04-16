@@ -1,0 +1,16 @@
+section {
+  padding: 5%;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  padding: 0.5rem;
+}
+
+#Education {
+  padding-bottom: 3rem;
+}
