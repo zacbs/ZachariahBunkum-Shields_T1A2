@@ -1,0 +1,14 @@
+div {
+  display: flex;
+  height: 30vh;
+  margin:auto;
+  justify-content: center;
+}
+
+section {
+  padding: 10%;
+}
+
+#part2 {
+  text-align: center;
+}
