@@ -12,9 +12,9 @@ section {
 }
 
 img {
-  object-fit: contain;
-  height: auto;
-  width: auto;
+  object-fit: scale-down;
+  max-height: auto;
+  max-width: 50%;
 }
 
 h4 {
